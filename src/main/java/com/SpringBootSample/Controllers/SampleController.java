@@ -14,7 +14,7 @@ public class SampleController {
 
 	        ModelAndView model = new ModelAndView("personview");
 	        Person person = new Person();
-	        person.setFirstName("Kanishk");
+	        person.setFirstName("Krishna");
 	        person.setLastName("Sharma");
 	        person.setAge(2);
 	        model.addObject("person", person);
